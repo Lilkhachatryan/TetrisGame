@@ -1,0 +1,23 @@
+#tetris-container {
+    height: 600px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.box {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+.active-box {
+    background-color: blue;
+}
+
+.start {
+    height: 40px;
+    width: 110px;
+    color: aqua;
+}
